@@ -1,0 +1,17 @@
+{
+  "name": "videochat",
+  "version": "1.0.0",
+  "description": "video chat with webRTC",
+  "main": "app.js",
+  "scripts": {
+    "start": "budo app.js:bundle.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gabriel Nyante",
+  "license": "ISC",
+  "dependencies": {
+    "budo": "^11.6.3",
+    "getusermedia": "^2.0.1",
+    "simple-peer": "^9.6.2"
+  }
+}
